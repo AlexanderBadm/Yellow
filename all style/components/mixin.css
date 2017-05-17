@@ -1,0 +1,12 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.wrapper-main {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.wrapper-mod {
+  max-width: 970px;
+  margin: 0 auto; }

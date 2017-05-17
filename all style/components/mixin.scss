@@ -1,0 +1,29 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@mixin absolutePos{
+  position: absolute;
+  top:0;
+  left: 0;
+  right:0;
+  bottom: 0;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
+.wrapper-main{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.wrapper-mod{
+  max-width: 970px;
+  margin: 0 auto;
+}
+
